@@ -6,6 +6,8 @@ Shutdown Timer allows you to schedule your PC to shut down after a specified dur
 
 ## Screenshot
 
+![Shutdown Timer](screenshot.png)
+
 ## Features
 
 * Schedule shutdowns using seconds, minutes, hours, or days
