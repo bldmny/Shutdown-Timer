@@ -1,10 +1,10 @@
 # Shutdown Timer
 
-A lightweight Windows utility for scheduling automatic shutdowns.
+A lightweight Windows utility for scheduling, replacing, and managing automatic shutdowns.
+
+Shutdown Timer allows you to schedule your PC to shut down after a specified duration using natural time formats such as seconds, minutes, hours, or days. The utility includes confirmation prompts, shutdown cancellation, input validation, existing timer replacement, administrator detection, and operation verification to provide clear and reliable feedback.
 
 ## Screenshot
-
-![Shutdown Timer](screenshot.png)
 
 ## Features
 
@@ -12,68 +12,12 @@ A lightweight Windows utility for scheduling automatic shutdowns.
 * Supports multiple input formats
 * Confirmation prompt before scheduling
 * Cancel active shutdown timers
+* Automatically replaces existing shutdown timers
+* Verifies shutdown scheduling and cancellation operations
+* Input validation for invalid, zero, and negative values
+* Administrator privilege detection and warnings
 * Lightweight and portable
 * No installation required
-
-## Examples
-
-```text
-30s
-45m
-3h
-2d
-
-10 minutes
-2 hours
-1 day
-```
-
-## Supported Formats
-
-### Seconds
-
-```text
-1s
-1sec
-1secs
-1second
-1seconds
-```
-
-### Minutes
-
-```text
-1m
-1min
-1mins
-1minute
-1minutes
-```
-
-### Hours
-
-```text
-1h
-1hr
-1hrs
-1hour
-1hours
-```
-
-### Days
-
-```text
-1d
-1day
-1days
-```
-
-## Commands
-
-```text
-cancel
-close
-```
 
 ## Running
 
